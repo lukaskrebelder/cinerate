@@ -1,0 +1,15 @@
+[submodule "cinerate-spa"]
+	path = cinerate-spa
+	url = https://github.com/lukaskrebelder/cinerate-spa.git
+[submodule "cinerate-mpa"]
+	path = cinerate-mpa
+	url = https://github.com/lukaskrebelder/cinerate-mpa.git
+[submodule "cinerate-bff"]
+	path = cinerate-bff
+	url = https://github.com/lukaskrebelder/cinerate-bff.git
+[submodule "cinerate-backend"]
+	path = cinerate-backend
+	url = https://github.com/lukaskrebelder/cinerate-backend.git
+[submodule "cinerate-db"]
+	path = cinerate-db
+	url = https://github.com/lukaskrebelder/cinerate-db.git
