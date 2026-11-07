@@ -30,12 +30,12 @@ Die Anwendung läuft auf Heroku:
 
 | Teil | Adresse |
 | --- | --- |
-| SPA | <SPA-ADRESSE> |
-| MPA | <MPA-ADRESSE> |
+| SPA | https://cinerate-spa-35a2aec816a9.herokuapp.com |
+| MPA | https://cinerate-mpa-dfbdbd6de171.herokuapp.com |
 | BFF | https://cinerate-bff-be82e8357e5c.herokuapp.com |
-| Backend | <BACKEND-ADRESSE> (nimmt Anfragen nur vom BFF an, nur `/api/status` ist frei) |
+| Backend | https://cinerate-backend-b2344b03c9f7.herokuapp.com (nimmt Anfragen nur vom BFF an, nur `/api/status` ist frei) |
 
-Die Anwendungen sind von <ZEITRAUM> eingeschaltet. Außerhalb dieses Zeitraums sind die Heroku-Dynos aus Kostengründen abgeschaltet und die Adressen antworten nicht.
+Die Anwendungen laufen ab der Abgabe am 08.11.2026 bis zum Ende der Bewertung. Antwortet eine Adresse nicht, ist der Heroku-Dyno gerade aus. Dann bitte kurz dem Team Bescheid geben (Kontakt in der Abgabe-E-Mail), wir schalten ihn ein.
 
 ### 1. Voraussetzungen
 
