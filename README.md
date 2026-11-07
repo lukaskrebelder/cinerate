@@ -72,7 +72,7 @@ Hinweise zu den Schritten:
 
 - **a:** Die Migrationen legen alle Tabellen an. Sie werden nur einmal ausgeführt.
 - **b, c:** Bleibt `INTERNAL_API_KEY` auf beiden Seiten leer, prüft das Backend den Schlüssel nicht und gibt beim Start eine Warnung aus. Lokal ist das gewollt.
-- **d:** Port 3000 ist schon vom Backend belegt. `serve` nimmt dann einen anderen freien Port und zeigt die Adresse an. Einen festen Port gibt `npm start -- -l 8080` vor. Wenn die SPA über `localhost` geöffnet wird, spricht sie automatisch mit dem BFF auf Port 4000.
+- **d:** Port 3000 ist schon vom Backend belegt. `serve` nimmt dann einen anderen freien Port und zeigt ihn an. Einen festen Port gibt `npm start -- -l 8080` vor. Die SPA im Browser immer über `http://localhost:<Port>` öffnen, nicht über `0.0.0.0` oder die Netzwerkadresse: Nur unter `localhost` spricht sie mit dem lokalen BFF auf Port 4000, sonst mit dem BFF auf Heroku.
 
 ### 4. Tests
 
